@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #0008ff, #110066f7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dashboard {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+   
+   }
+
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+/* 
+.card-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    display: block;
+} */
+.card {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    margin
+    border: 3px solid #000000;
+    transition: 0.3s ease;
+    cursor: pointer;
+    height: 350px;
+    width: 450px;
+    display: block;
+    overflow-wrap: break-word;
+}
+.card:hover {
+    transform: scale3d(1.03);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.teacher {
+    margin-top: 13%;
+    overflow: hidden;
+    
+}
+
+
