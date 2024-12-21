@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="Converterstyle.css">
+</head>
+<body>
+    <main>
+        <div class="eenhedencard">
+            <div class="custom-dropdown">
+                <div class="selected" onclick="toggleDropdown()">
+                    Select an option
+                    <span class="arrow">▼</span>
+                </div>
+                <ul class="options" id="options">
+                    <li onclick="selectOption('1D Lengte')">1D Lengte</li>
+                    <li onclick="selectOption('2D Oppervlakte')">2D Oppervlakte</li>
+                    <li onclick="selectOption('3D Inhoud')">3D Inhoud</li>
+                </ul>
+            </div>
+        </div>
+    <div class="teacher">
+        <img src="MathTeacher.png">
+        </div> 
+        </main>
+
+<script src="units.js"></script>
+</body>
+</html>
+
+<!--        
+                    <select class="w-full p-3 border rounded text-lg" id="dimselect" onchange="nieuw()">
+                        <option value="1">1D (lengte)</option>
+                        <option value="2">2D (oppervlakte)</option>
+                        <option value="3">3D (inhoud)</option>
+                    </select>
+                </div>
+                <div class="flex items-center mb-6">
+                    <div class="w-1/2">
+                        <div class="flex">
+                            <input type="text" class="w-full p-3 border rounded-l text-lg" id="opginput" disabled>
+                            <span class="p-3 border-t border-b border-gray-300 bg-gray-100 text-lg" id="opgeenheid">m</span>
+                        </div>
+                    </div>
+                    <div class="w-1/12 text-center text-lg font-semibold">=</div>
+                    <div class="w-5/12">
+                        <div class="flex">
+                            <input type="text" class="w-full p-3 border rounded-l text-lg" id="antwinput">
+                            <span class="p-3 border-t border-b border-r border-gray-300 bg-gray-100 text-lg" id="antweenheid">cm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <button class="bg-green-600 text-white py-3 px-6 rounded w-1/2 mr-2 btn-animated text-lg font-semibold" onclick="check()">Check</button>
+                    <button class="bg-blue-600 text-white py-3 px-6 rounded w-1/2 ml-2 btn-animated text-lg font-semibold" onclick="nieuw()">Nieuw</button>
+                </div>
+            </div>
+        </body>
+        </html>
+          <div id="alertPlaceholder"></div>
+        </div>
+    </div> -->
