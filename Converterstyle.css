@@ -14,22 +14,16 @@ main {
     min-height: 100vh;
     background: linear-gradient(to right bottom, #0008ff, #110066f7);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
   }
 
-.eenhedencard {
-    background: aliceblue;
-    min-height: 50vh;
-    box-shadow:  -13px 10px rgba(0, 0, 0, 0.5);                                                                                                                                                          
-    border: 2px solid black;
-    width: 40%;
-    border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    display: flex;
-    margin-right: 50%;
-}
+/* body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
 
 
 .teacher {
@@ -39,114 +33,3 @@ main {
     left: 65%;
     top: 3.6%;
 }
-
-.custom-dropdown {
-    width: 250px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 185px;
-    position:absolute;
-    border: 2px solid black;
-    border-radius: 1rem;
-    font-size: 20px;
-}
-
-.selected {
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.arrow {
-    float: right;
-}
-
-.options {
-    display: none;
-    position: absolute;
-    width: 100%;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: white;
-    z-index: 1;
-}
-
-.options li {
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.options li:hover {
-    background-color:#2b2b2b;
-    color:white;
-    font-weight: normal;
-}
-
-.options.show {
-    display: block;
-}
-.input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 40px;
-    gap: 35px;
-}
-.input-container input {
-    font-family: "Archivo Black", serif;
-    font-style: normal;
-    font-weight: bold;
-    width: 230px;
-    height: 50px;
-    padding: 10px;
-    border: 3px solid #ccc;
-    border-radius: 1rem;
-    margin-right: -25px;
-    font-size: 25px;
-    color: #000000;
-    background-color: #ffffff;
-    transition: border-color 1.3s;
-}
-.equal {
-    position: absolute;
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 0;
-    margin-left: 320px;
-}
-.input-container .answer-input {
-    position: absolute;
-    background-color: #ffffff;
-    color: #000000; 
-    margin-top: 0px;
-    margin-left: 95%;
-    height: 53px;
-}
-
-input[type="text"]:focus {
-    border-color: #0066ff;
-    outline: none;
-}
-/* 
-input[type="text"] {
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 50px;
-    width: 250px;
-    height: 40px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #333;
-    background-color: #f9f9f9;
-    transition: border-color 1.3s;
-}
-
-input[type="text"]:focus {
-    border-color:#000000;
-    outline: none;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
-} */
