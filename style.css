@@ -47,6 +47,8 @@ main {
     color: white;
 }
 
+
+
 .glass {
     background: white;
     min-height: 50vh;
@@ -65,7 +67,6 @@ main {
 .teacher {
     margin-top: 13%;
     overflow: hidden;
-    
 }
 
 .dashboard {
