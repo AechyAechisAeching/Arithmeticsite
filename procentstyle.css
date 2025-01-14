@@ -25,14 +25,14 @@ body {
     width: 420px;
     height: 200px;
     left: 5%;
-    bottom: 30%;
+    bottom: 33%;
     box-shadow:  10px 2px rgba(0, 0, 0, 0.279);
 }
 
 .box1header {
     display: flex;
     margin-bottom: 110px;
-    background-color: #1e1e1e;
+    background-color: #000000;
     color: white;
     pointer-events: none;
     width: 420px;
@@ -59,8 +59,19 @@ body {
 }
 
 .box2header {
-    margin-bottom: 130px;
+    display: flex;
+    margin-bottom: 110px;
+    background-color: #000000;
+    color: white;
+    pointer-events: none;
+    width: 620px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+
 
 .box3 {
     position: absolute;
@@ -72,13 +83,24 @@ body {
     width: 420px;
     height: 200px;
     right: 5%;
-    bottom: 30%;
+    bottom: 33%;
     box-shadow: 10px 2px rgba(0, 0, 0, 0.279);
 }
 
 .box3header {
-    margin-bottom: 130px;
+    display: flex;
+    margin-bottom: 110px;
+    background-color: #000000;
+    color: white;
+    pointer-events: none;
+    width: 420px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+
 
 .box4 {
     position: absolute;
@@ -95,5 +117,35 @@ body {
 }
 
 .box4header {
+    display: flex;
+    position: absolute;
     margin-bottom: 110px;
+    background-color: #000000;
+    color: white;
+    pointer-events: none;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box4content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+
+.box4content p {
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    background-color: #000000;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0rem;
+    width: 80px;
+    height: 80px;
 }
