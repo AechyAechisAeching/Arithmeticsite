@@ -109,7 +109,7 @@ body {
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
-    width: 480px;
+    width: 580px;
     height: 200px;
     bottom: 5%;
     left: 34.5%;
@@ -140,12 +140,43 @@ body {
 
 .box4content p {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    font-size: large;
-    background-color: #000000;
-    color: white;
-    border: 1px solid red;
-    border-radius: 0rem;
-    width: 80px;
-    height: 80px;
+    font-size: medium;
+    background-color: #e8e8e8;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+     border-right: none;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-radius: 0.2rem;
+    width: 130px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+input[type="text"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    /* border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem; */
+    background-color: #ffffff;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;      
+    background-color: #007BFF; 
+    color: white;  
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
 }
