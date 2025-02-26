@@ -111,8 +111,8 @@ body {
     justify-content: center;
     width: 580px;
     height: 200px;
-    bottom: 5%;
-    left: 34.5%;
+    bottom: 2%;
+    left: 31%;
     box-shadow: 10px 2px rgba(0, 0, 0, 0.279);
 }
 
@@ -120,11 +120,14 @@ body {
     display: flex;
     position: absolute;
     margin-bottom: 110px;
-    background-color: #000000;
+    background: linear-gradient(to right bottom, #0008ff, #110066f7);
+    border-radius: 0.5rem;
+    border: #ffffff 2px solid;
+    font-weight: bolder;
+    width: 250px;
+    height: 50px;
     color: white;
     pointer-events: none;
-    width: 500px;
-    height: 50px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -132,9 +135,8 @@ body {
 
 .box4content {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-right: 100px;
+    align-items: center;
 
 }
 
@@ -142,24 +144,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    font-size: medium;
-    background-color: #e8e8e8;
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
-     border-right: none;
-    border-top-left-radius: 0rem;
-    border-bottom-left-radius: 0rem;
-    border-radius: 0.2rem;
-    width: 130px;
-    height: 40px;
-    margin-left: 40px;
+    position: absolute;
+    left: 250px;
+    top: 85px;
+    font-weight: bolder;
+    background-color: #eeeeee;
+    width: 200px;
+    height: 50px;
+    border-radius: 1rem;
 }
 
 input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     height: 40px;
     width: 220px;
     border: 1px solid black;
